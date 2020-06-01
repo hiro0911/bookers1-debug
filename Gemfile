@@ -55,6 +55,10 @@ group :test do
 	gem 'faker'
 	gem 'shoulda-matchers'
 	gem 'rails-controller-testing'
+    gem 'capybara', '>= 2.15'
+  gem 'rspec-rails'
+  gem "factory_bot_rails"
+  gem 'faker'
 end
 
 group :development do
